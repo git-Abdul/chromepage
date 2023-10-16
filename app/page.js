@@ -1,9 +1,12 @@
+"use client"
 import Clock from "@/components/Clock"
+import { NavBar } from "@/components/navBar"
 
 export default function ChromePage() {
   return (
     <main>
-      <div className="mt-32 text-8xl">
+      <NavBar />
+      <div className="mt-44 text-8xl">
         <Clock />
       </div>
     </main>
